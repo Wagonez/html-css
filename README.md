@@ -1,4 +1,4 @@
 # html-css
  Aprendendo html e css
  
- https://wagonez.github.io/html-css/exercicios/site1/
+ <a href="https://wagonez.github.io/html-css/exercício/site1/">execultar o exercicio site</a>
