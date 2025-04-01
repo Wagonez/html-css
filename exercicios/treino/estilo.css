@@ -1,0 +1,8 @@
+body{
+    animation: mo 10s normal infinite;
+  }
+  
+  @keyframes mo {
+    from {background-color: red;}
+    to {background-color: blue;}
+  }

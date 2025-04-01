@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(56, 31, 31);
+    color: bisque;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+a{
+    color: rgb(247, 5, 5);
+}
