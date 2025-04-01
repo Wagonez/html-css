@@ -1,0 +1,23 @@
+h1{
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+}
+p{
+    padding: 15px;
+    text-align: justify;
+    width: 200px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
+    border: 1px solid black;
+}
+#teste{
+    background-color: rgb(190, 248, 166);
+    border-radius: 50px 0px 50px 0px;
+    margin: 0px;
+    padding: 1px;
+    text-align: center;
+}
