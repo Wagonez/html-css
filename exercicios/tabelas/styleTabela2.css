@@ -1,6 +1,5 @@
 body{
     background-color: bisque;
-    margin-left: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
 p>span{
@@ -14,8 +13,14 @@ div{
 
 
 table{
+    position: relative;
     border-collapse: collapse;
     width: 500px;
+    max-width: 100%;
+}
+thead tr th{
+    position: sticky;
+    top:0;
 }
 td,th{
     border: 1px solid black;
@@ -26,4 +31,12 @@ th, tfoot{
 }
 td.num{
     text-align: right;
+    width: 50px;
+}
+tbody>tr:nth-child(even){
+    background-color: rgb(167, 111, 111);
+    color: white;
+}
+tbody>tr:nth-child(odd){
+    background-color: aqua;
 }
