@@ -24,3 +24,6 @@ td,th{
 th, tfoot{
     background-color: aquamarine;
 }
+td.num{
+    text-align: right;
+}
