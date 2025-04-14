@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="styleTabela3.css">
 </head>
 <body>
-    <h1>Mesclagem de tabela</h1>
+    <h1>Mesclagem de células</h1>
     <table>
         <thead>
             <tr>
                 <th>Estado</th>
-                <th>População</th>
-                <th>extensão</th>
+                <th colspan="2">População</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -25,19 +25,18 @@
             <tr>
                 <td>Minas</td>
                 <td>0000000</td>
-                <td>0000000</td>
+                <td rowspan="3">0000000</td>
             </tr>
             <tr>
                 <td>são paulo</td>
                 <td>0000000</td>
-                <td>0000000</td>
+                
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th>total</th>
-                <td>000000</td>
-                <td>000000</td>
+                <td colspan="2"><strong>000000</strong></td>
             </tr>
         </tfoot>
     </table>  
