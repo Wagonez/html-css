@@ -17,3 +17,9 @@ td,th{
 h1{
     text-align: center;
 }
+caption{
+    font-size: 1.3em;
+}
+.c3{
+    background-color: rgb(61, 245, 245);
+}
