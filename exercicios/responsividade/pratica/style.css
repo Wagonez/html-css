@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(252, 141, 6);
+    margin: auto;
+}
+h1{
+    width: max-content;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+}
+main{
+    background-color: aquamarine;
+    margin: auto;
+    max-width: 700px;
+    padding: 20px;
+    text-indent: 5%;
+}
+p::first-letter{
+    color: blue;
+    font-size: 200%;
+}

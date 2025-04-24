@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@font-face {
+    font-family: titulo;
+    src: url(fontes/Game\ Bubble.ttf)format('truetype');
+    font-weight: bold;
+}
+h1{
+    font-family:'titulo';
+    font-size: 3em;
+    text-align: center;
+    color: rgb(245, 4, 4);
+}
+hr{
+    border-color: blue;
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+body{
+    background-image: linear-gradient(to bottom, rgb(5, 5, 5), rgb(250, 252, 250));
+    width:  90vw;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}

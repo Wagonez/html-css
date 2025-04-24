@@ -1,0 +1,31 @@
+@charset "UTF-8";
+div{
+    background-color: brown;
+    width: 200px;
+    height: 150px;
+    border: black solid 1px;
+    display: inline-block;
+    margin-block: 2px;
+}
+#div1:hover{
+    background-color: rgb(135, 58, 202);
+    border-radius: 2px;
+}
+#div2:hover{
+    background-color: blue;
+}
+#div3:hover{
+    background-color: red;
+}
+h2:hover{
+    color: green;
+}
+.tl:hover{
+    color: rgb(245, 3, 253);
+}
+p{
+    display: none;
+}
+#div4:hover>p{
+    display: block;
+}

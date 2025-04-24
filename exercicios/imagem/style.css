@@ -1,0 +1,10 @@
+@charset "UtF-8";
+h1{
+    text-align: center;
+}
+body{
+    background-image: url(peixe.jpg );
+    background-repeat: no-repeat, repeat;
+    background-position: top, center;
+    background-color: #A2AF2B;
+}

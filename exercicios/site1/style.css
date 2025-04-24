@@ -1,0 +1,82 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* a (*) Faz uma declaração Grobal*/
+:root{
+    --cor01:#ffbcab;
+    --cor02:#cd8d7e;
+    --cor03:#9b5e50;
+}
+body{
+    background-color: var(--cor01);
+    font-weight: normal;
+}
+main{
+    background-color: azure;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 3.5%;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.534);
+}
+
+img{
+    width: 100%;
+}
+.pequena{
+    display: block;
+    max-width: 300px;
+    margin: auto;
+}
+header{
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(var(--cor01)50% ,var(--cor03));
+    padding: 2%;
+}
+nav{
+    padding: 10px;
+    background-color: var(--cor03);
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.5);
+}
+nav a{
+    color: rgb(247, 248, 247);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+nav>a:hover{
+    background-color: #4405f3;
+}
+main p{
+    text-align: justify;
+    line-height: 2em;
+}
+aside{
+    background-color: var(--cor01);
+    padding: 10px;
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-image:url('imagens/check-mark.png');
+}
+article a::after{
+    content: '\1F517';
+}
+.videoP{
+    display: block;
+    aspect-ratio: 16/9;
+    margin: auto;
+    width: 1000px;
+    max-width: 100%;
+}
+footer{
+    padding: 15px;
+    color: white;
+    background-color: black;
+}

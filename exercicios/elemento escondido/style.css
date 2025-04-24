@@ -1,0 +1,18 @@
+@charset "UTF-8";
+p{
+    display: none;
+}
+#ocul:hover>p{
+    display: block;
+    width: 200px;
+    padding-bottom: 20px;
+}
+#ocul{
+    background-color: rgb(169, 169, 243);
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+}
+p:hover{
+    color: blue;
+}

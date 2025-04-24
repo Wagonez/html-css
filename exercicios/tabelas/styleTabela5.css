@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(250, 247, 247);
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    max-width: 96%;
+}
+td,th{
+    border: 2px solid black;
+    padding: 5px;
+}
+.destaque{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+}
+caption{
+    font-size: 1.3em;
+}
+.c3{
+    background-color: rgb(61, 245, 245);
+}

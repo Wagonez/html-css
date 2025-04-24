@@ -1,0 +1,24 @@
+@charset "UTF-8";
+#principal{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 3px 3px 10px black;
+    background-color: rgb(137, 241, 172);
+}
+h2{
+    text-align: right;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+#t2{
+    color: rgb(243, 4, 143);
+    text-align: center;
+    text-decoration: underline rgb(8, 8, 8);
+}
+.teste1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 179, 179);
+}
