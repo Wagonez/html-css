@@ -7,31 +7,45 @@
 </head>
 <body>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <p>
-            <label for="iusu">usuario</label> <input type="text" name="usu" id="iusu" required size="10" maxlength="15" minlength="3" placeholder="Seu nome" autocomplete="username">
-        </p>
-        <p>
-            <label for="isen">senha</label> <input type="password" name="sen" id="isen" required minlength="8" maxlength="12" size="8" placeholder="senha" autocomplete="current-password">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Resetar">
-        </p>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="iusu">usuario</label> <input type="text" name="usu" id="iusu" required size="10" maxlength="15" minlength="3" placeholder="Seu nome" autocomplete="username">
+            </p>
+            <p>
+                <label for="isen">senha</label> <input type="password" name="sen" id="isen" required minlength="8" maxlength="12" size="8" placeholder="senha" autocomplete="current-password">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetar">
+            </p>
+        </fieldset>
     </form>
-    <hr>
     <form action="Media.php" method="get" autocomplete="on">
-        <p>
-            <label for="iname">Nome</label>
-            <input type="text" name="nome" id="iname" maxlength="15" placeholder="Nome do aluno" size="25" required autocomplete="name">
-        </p>
-        <p>
-            <label for="imed">Media</label>
-            <input type="number" name="med" id="imed" step="0.1" required placeholder="Media do aluno" maxlength="2" min="0" max="10">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
-    </form>  
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="iname">Nome</label>
+                <input type="text" name="nome" id="iname" maxlength="15" placeholder="Nome do aluno" size="25" required autocomplete="name">
+            </p>
+            <p>
+                <label for="imed">Media</label>
+                <input type="number" name="med" id="imed" step="0.1" required placeholder="Media do aluno" maxlength="2" min="0" max="10">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+    <form action="Jogos preferidos.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Jogos preferidos</legend>
+            <input type="checkbox" name="mortC" id="imortC"> <label for="imortC">Mortal-Combate</label> <br>
+            <input type="checkbox" name="strF" id="istrF"><label for="istrF">Street-fighter</label>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form> 
 </body>
 </html>
