@@ -22,13 +22,16 @@
     <form action="Media.php" method="get" autocomplete="on">
         <p>
             <label for="iname">Nome</label>
-            <input type="text" name="nome" id="iname" maxlength="15" placeholder="Nome do aluno" size="25" required>
+            <input type="text" name="nome" id="iname" maxlength="15" placeholder="Nome do aluno" size="25" required autocomplete="name">
         </p>
         <p>
             <label for="imed">Media</label>
-            <input type="number" name="med" id="imed" step="0.1" required>
+            <input type="number" name="med" id="imed" step="0.1" required placeholder="Media do aluno" maxlength="2" min="0" max="10">
         </p>
-        <input type="submit" value="Enviar">
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>  
 </body>
 </html>
