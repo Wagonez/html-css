@@ -5,9 +5,9 @@
 }
 /* a (*) Faz uma declaração Grobal*/
 :root{
-    --cor01:#ffbcab;
-    --cor02:#cd8d7e;
-    --cor03:#9b5e50;
+    --cor01:#a19d9b;
+    --cor02:#424141;
+    --cor03:#030303;
 }
 body{
     background-color: var(--cor01);
