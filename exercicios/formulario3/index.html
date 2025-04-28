@@ -22,10 +22,21 @@
 
                 <optgroup label="Região Sentro Oeste">
                     <option value="MT">Mato Grosso</option>
-                    <option value="GO">Goiás</option select>
+                    <option value="GO" selected>Goiás</option>
                     <option value="MS">Mato Grosso Do Sul</option>
                 </optgroup>
             </select>
+        </div><br>
+        <div>
+            <label for="ilist">profissões</label>
+          <input type="text" name="profi" id="ilist" list="listas">
+          <datalist id="listas">
+            <option>medico</option>
+            <option>engenheiro</option>
+            <option>dentista</option>
+            <option>agricultor</option>
+            <option>costureiro</option>
+          </datalist>
         </div><br>
         <div>
             <input type="submit" value="Enviar"><br>
