@@ -1,2 +1,8 @@
 @charset "UTF-8";
-/*Estilo para impressora
+/*Estilo para impressora*/
+menu{
+    display: none;
+}
+article::after{
+    content: 'Este arquivo foi baixado site do www.wagonez.com';
+}

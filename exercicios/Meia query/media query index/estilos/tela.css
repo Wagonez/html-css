@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/*Estilos para tela*/
 body{
     background-color: rgb(197, 245, 197);
+    font-family: Arial, Helvetica, sans-serif;
 }
