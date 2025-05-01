@@ -5,13 +5,16 @@
 
 /*Tipical da*/
 /*
-telas pequenas ate 600px
-celular: de 600px ate 768px
-tablet: de 768px ate 992px
-desktop: de 992px ate 1200
-grandes telas acima de 1200
+    telas pequenas ate 600px
+    celular: de 600px ate 768px
+    tablet: de 768px ate 992px
+    desktop: de 992px ate 1200
+    grandes telas acima de 1200
 */
 @media print {
+    main{
+        border: 1px solid black;
+    }
     body{
         background-image: url(../imagens/back-print.jpg);
         font-family: 'Courier New', Courier, monospace;
@@ -20,7 +23,11 @@ grandes telas acima de 1200
     #tablet{ display: none;}
     #pc{ display: none;}
     #tv{display: none;}
-    #impressora{display: block;} 
+    #impressora{display: block;}
+    main::after{
+        content: 'Versão impressa de www.neis.com';
+        text-decoration: overline;
+    }
 }
 @media screen and (min-width:768px) and (max-width:992px) {
     body{
