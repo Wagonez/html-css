@@ -6,8 +6,9 @@
     <title>Media query05</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
    <header>
         <h1>Groselha grátis</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
@@ -45,6 +46,13 @@
                 itens.style.display='none'
             }else{
                 itens.style.display='block'
+            }
+        }
+        function mudouTamanho(){
+            if(window.innerWidth>='768'){
+                itens.style.display='block'
+            }else{
+                itens.style.display='none'
             }
         }
    </script>  
