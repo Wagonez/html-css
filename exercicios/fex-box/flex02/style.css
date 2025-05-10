@@ -2,8 +2,7 @@
 .conteiner{
     background-color: aqua;
     display: flex;
-    flex-direction: column;
-    /* flex-direction tem 4 propriedades*/
+    flex-direction: ;
 }
 .item{
     background-color: blueviolet;
