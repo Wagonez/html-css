@@ -2,7 +2,6 @@
 .conteiner{
     background-color: aqua;
     display: flex;
-    flex-direction: ;
 }
 .item{
     background-color: blueviolet;
