@@ -3,12 +3,12 @@
 .conteiner{
     background-color: bisque;
     display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-start;
-    height: 300px;
+    flex-flow: row wrap;
 }
 .item{
     background-color: blueviolet;
     border: 1px solid black;
-    flex-basis: 100px;
+    text-align: center;
+    flex-basis: 150px;
 }
+
