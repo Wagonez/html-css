@@ -3,6 +3,9 @@
 .conteiner{
     background-color: bisque;
     display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    height: 300px;
 }
 .item{
     background-color: blueviolet;
@@ -10,17 +13,17 @@
     padding: 10px;
 }
 #i1{
-    order: 3;    
+       
 }
 #i2{
-    order: 5;
+    align-self: center;
 }
 #i3{
-    order: 4;
+    align-self: flex-end;
 }
 #i4{
-    order: 1;
+    
 }
 #i5{
-    order: 2;
+    align-self: stretch;    
 }
