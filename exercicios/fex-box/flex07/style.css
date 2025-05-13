@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.conteiner{
+    background-color: bisque;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.item{
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 150px;
+}
+#i4{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#i5{
+    flex-grow: 2; /* crescera o dobro do anterior*/
+    flex-shrink: 1;
+}
+
