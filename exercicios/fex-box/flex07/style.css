@@ -19,4 +19,7 @@
     flex-grow: 2; /* crescera o dobro do anterior*/
     flex-shrink: 1;
 }
+#i3{
+    flex-shrink: 2; /* ira encolher o dobro do elemento ao lado*/
+}
 
