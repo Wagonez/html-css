@@ -9,6 +9,17 @@
     background-color: blueviolet;
     border: 1px solid black;
     text-align: center;
-    flex-basis: 150px;
+    flex-basis: 250px;
 }
-
+#i1{
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+#i2{
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+#i3{
+    flex-grow: 1;
+    flex-shrink: 2;
+}
