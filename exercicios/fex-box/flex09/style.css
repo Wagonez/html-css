@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.conteiner{
+    background-color: bisque;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.item{
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+}
+#i1{
+    flex: 0 1 200px;
+}
+#i2{
+    flex: 2 0 200px;
+}
+#i3{
+    flex: 1 2 200px;
+}
