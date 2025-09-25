@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+</head>
+<body>
+    <header>
+        <h1>Menu de Opções</h1>
+        <div id="icoMenu">
+            <svg id="imenu" onclick="abMenu()" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 -960 960 960" width="2em" fill="#19ED07"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </div>
+        <menu>
+            <ul id="menu1">
+                <li>Opção 1</li>
+                <li>Opção 2</li>
+                <li>Opção 3</li>
+                <li>Opção 4</li>
+                <li>Opção 5</li>
+            </ul>   
+        </menu>
+    </header>
+    <main>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, doloremque cumque natus corrupti quidem itaque odit. Nisi inventore ea enim iusto odit culpa consequatur voluptatum, distinctio eum facilis laborum? Tempora!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam explicabo distinctio perspiciatis, mollitia ad hic enim nobis, vitae tenetur nostrum eum nihil numquam. Libero, eos. Sapiente laudantium vero suscipit perferendis.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in quasi rem officia maxime nisi? At repellendus praesentium ab neque ad debitis, laboriosam deserunt dolorem provident possimus quaerat culpa non?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laborum laboriosam ducimus officia quos nulla excepturi pariatur magni, tenetur fugit corrupti consectetur dolorem dignissimos est hic repellendus tempora quod quia! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde qui veritatis optio autem saepe vel, tenetur fugit cum ea hic rem quia laudantium nisi. Ipsum deleniti impedit nobis quisquam labore.
+        </p>
+    </main>
+    <footer>
+        <p>Menu Criado por Wagonez Costa</p>
+    </footer>
+    <script>
+        function abMenu(){
+            if(menu1.style.height=='200px'){
+                menu1.style.height='0px'
+            } else {menu1.style.height='200px'}
+            menu1.style.transition='.4s'
+        }
+    </script>
+</body>
+</html>

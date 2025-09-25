@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+</head>
+<body>
+    <form action="soma.php">
+        <p>
+            <label for="in1">Numero 1</label> <input type="number" name="n1" id="in1" min="0"
+            oninput="isoma.innerHTML= Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">Numero 2</label> <input type="number" name="n2" id="in2" oninput="isoma.innerHTML=Number(in2.value) + Number(in1.value)">
+        </p>
+        <label for="isoma">Soma </label><output name="soma" id="isoma">0</output> <br>
+        <input type="reset" value="limpar">
+    </form> <br>
+   <form action="documento.php">
+        <label for="nivel">Nivel</label>
+        <input type="range" name="nivel1" id="in1" value="0" oninput="n1.innerHTML=Number(in1.value)">
+        <output name="n1">0</output>
+   </form>  
+</body>
+</html>
